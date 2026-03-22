@@ -21,10 +21,12 @@ Currently designed for local execution via Vite dev server. A static build will 
 Requires Node.js installed.
 
 ```bash
-git clone https://github.com/your-repo/vitalscan.git
-cd vitalscan
+git clone https://github.com/Arkoparno/NovaPulse.git
+cd NovaPulse
 npm install
 npm run dev
+# Open http://localhost:5173
+# Allow camera permissions. Use bright lighting. Stay still.
 ```
 Navigate to `http://localhost:5173`. Accept camera permissions when prompted. The scanning logic requires bright ambient natural light and a completely still environment.
 
